@@ -1,0 +1,134 @@
+body{
+    background-color: #f0f2f5;
+}
+
+.header .fb_logo{
+    height: 100px;
+   
+}
+.header{
+    text-align: center;
+    padding-top: 5px;
+}
+.box .box_top{
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #000;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+
+.box .box_down{
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color:#606770 ;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    position: relative;
+    z-index: 1;
+    max-width: 465px;
+    
+}
+
+.input{
+    background-color: #fff;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    position: relative;
+    z-index: 1;
+    max-width: 465px;
+
+}
+
+
+#fnameid{
+    height: 20px;
+    width: 170px;
+    margin-right: 3px;
+    text-align: center;
+    color:#606770 ;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+    
+}
+#lnameid{
+    height: 20px;
+    width: 170px;
+    text-align: center;
+    color:#606770 ;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+}
+
+#all {
+    height: 20px;
+    width: 355px;
+    margin-top: 5px;
+    text-align: center;
+    color:#606770 ;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+}
+
+#passWord{
+    width: 355px;
+    height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    color:#606770 ;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    border-radius: 4px;
+}
+#datee p{
+    margin-right: 280px;
+    color:#606770 ;
+    font-size: inherit;
+    margin-bottom: 0;
+}
+#DOB_input{
+    width: 110px;
+    height: 20px;
+    margin-bottom: 0;
+    border-radius: 4px;
+    text-align: center;
+    color:#606770 ;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+}
+
+.Genclass{
+    margin-right: 319px;
+    color:#606770 ;
+    font-size: inherit;
+    margin-bottom: 0;
+
+}
+
+#Male_span{
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccd0d5;
+    display: inline-block;
+    flex: 1 0 auto;
+    font-weight: normal;
+    margin: 8px 6px 6px;
+    padding: 0;
+    position: relative;
+    width: 110px;
+    height: 20px; 
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.input_gen{
+    margin-top: -21px;
+}
+
+    

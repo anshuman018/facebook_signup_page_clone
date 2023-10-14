@@ -1,0 +1,40 @@
+body{
+background-color: #1145a0
+}
+.container{
+    margin-top: 90px;
+    max-width: 500px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 20px;
+
+}
+
+.header{
+    color: #084fc3;
+}
+
+.button2{
+    height: auto;
+    margin: 15px 0px;
+    width: 170px;
+    background-color: #0b9dff;
+    color: white;
+    border-color:#0b9dff ;
+    
+}
+
+.button1{
+    height: auto;
+    margin: 15px 0px;
+    width: 170px;
+    background-color: #08c311;
+    color: white;
+    border-color:#08c311;
+    
+}
+
+.forget-pass{
+    text-decoration: none;
+}
