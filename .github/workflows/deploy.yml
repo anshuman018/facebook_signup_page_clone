@@ -8,14 +8,15 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: VM_HOST
     steps:
       - uses: actions/checkout@v4
 
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v0.1.10
         with:
-          host: ${{ VM_HOST.VM_HOST }}
-          username: ${{ VM_HOST.VM_USER }}
-          key: ${{ VM_HOST.DEPLOY_KEY }}
+          host: ${{ secrets.VM_HOST }}
+          username: ${{ secrets.VM_USER }}
+          key: ${{ secrets.DEPLOY_KEY }}
           script: |
             bash /home/azureuser/deploy.sh
