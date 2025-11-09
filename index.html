@@ -3,42 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>Facebook – log in or sign up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
+    <div class="login-container">
+        <div class="login-left">
+            <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook" class="facebook-logo">
+            <h2>Facebook helps you connect and share with the people in your life.</h2>
+        </div>
+        
+        <div class="login-right">
+            <div class="login-box">
+                <form action="home.html">
+                    <input type="text" placeholder="Email address or phone number" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit" class="login-btn">Log in</button>
+                </form>
+                
+                <a href="#" class="forgot-password">Forgotten password?</a>
+                
+                <hr>
+                
+                <a href="signup.html" class="create-account-btn">Create new account</a>
+            </div>
+            
+            <p class="create-page">
+                <strong>Create a Page</strong> for a celebrity, brand or business.
+            </p>
+        </div>
+    </div>
     
-    <div class="container">
-    <center>
-        <table>
-            <h1> LOGIN HERE</h1>
-            <tr>
-                <td>Username:</td>
-                <td>
-                    <input type="text" placeholder="Enter Username/Phone" name="Username"
-                </td>
-                
-            </tr>
-
-            <tr> 
-                <td>Password:</td>
-                <td> 
-                    <input type="text" placeholder="Enter Password" name="Password"
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="submit" name="submit" value="LOGIN"
-                </td>
-                <td>
-                    not a member yet? <a href="">Register</a>
-                    
-                </td>
-            </tr>
-            
-                
-            
-        </table>
-    </center> 
-</div>
+    <footer class="login-footer">
+        <div class="footer-content">
+            <div class="languages">
+                <a href="#">English (UK)</a>
+                <a href="#">हिन्दी</a>
+                <a href="#">ਪੰਜਾਬੀ</a>
+                <a href="#">اردو</a>
+                <a href="#">தமிழ்</a>
+                <a href="#">বাংলা</a>
+                <a href="#">తెలుగు</a>
+                <a href="#">മലയാളം</a>
+                <a href="#">ગુજરાતી</a>
+                <a href="#">ಕನ್ನಡ</a>
+                <a href="#">മരാഠी</a>
+                <button class="lang-more"><i class="fas fa-plus"></i></button>
+            </div>
+            <hr>
+            <div class="footer-links">
+                <a href="#">Sign Up</a>
+                <a href="#">Log In</a>
+                <a href="#">Messenger</a>
+                <a href="#">Facebook Lite</a>
+                <a href="#">Video</a>
+                <a href="#">Places</a>
+                <a href="#">Games</a>
+                <a href="#">Marketplace</a>
+                <a href="#">Meta Pay</a>
+                <a href="#">Meta Store</a>
+                <a href="#">Meta Quest</a>
+                <a href="#">Instagram</a>
+                <a href="#">Threads</a>
+                <a href="#">Fundraisers</a>
+                <a href="#">Services</a>
+                <a href="#">Voting Information Centre</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Privacy Centre</a>
+                <a href="#">Groups</a>
+                <a href="#">About</a>
+                <a href="#">Create ad</a>
+                <a href="#">Create Page</a>
+                <a href="#">Developers</a>
+                <a href="#">Careers</a>
+                <a href="#">Cookies</a>
+                <a href="#">AdChoices</a>
+                <a href="#">Terms</a>
+                <a href="#">Help</a>
+                <a href="#">Contact uploading and non-users</a>
+            </div>
+            <div class="copyright">
+                <p>Meta © 2025</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
